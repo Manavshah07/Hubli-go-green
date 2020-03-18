@@ -1,0 +1,146 @@
+/**
+ * about.css
+ * Contains CSS for basic static website named "Hubli - A Go Green Initiative"
+ */
+
+/* =========================================
+    Default Theme
+    ----------------------------------------
+    Fonts: Poppins and Mr. Dafoe
+    ----------------------------------------
+    Colors:
+        Green:               #A0D406
+        Smoke Grey:          #ACACAC
+        Dark Grey:           #505050
+        White:               #fff
+        Black:               #000   
+============================================ */
+
+
+/******************************************************************************************************************************************************************
+                                                               CONTACT-US-SHOWCASE SECTION
+******************************************************************************************************************************************************************/
+#contact-us-showcase{
+    height: 50vh;
+    width: 100%;
+    z-index: 0;
+}
+.contact-us-showcase-wrapper{
+    height: 100%;
+    background-image: url(../img/contact-page/head-bg.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+    z-index: -1;
+}
+.contact-us-showcase-content{
+    color: #fff;
+    padding-top: 90px;
+    z-index: -3;
+}
+.contact-us-showcase-content h1{
+    font-weight: bold;
+}
+.contact-us-showcase-overlay{
+    background: rgba(0,0,0,0.5);
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -2;
+    opacity: 2;
+}
+/******************************************************************************************************************************************************************
+                                                               CONTACT-INFO SECTION
+******************************************************************************************************************************************************************/
+.contact{
+    display: flex;
+}
+.contact-left{
+    margin-right: 50px;
+    margin-left: 150px;
+}
+.contact-left p{
+    font-size: 15px;
+    width: 580px;
+}
+.contact-left .contact-name input{
+    padding: 10px 20px;
+    width: 100%;
+    border: none;
+    border: solid 2px #ccc;
+    color: #ACACAC;
+    display: inline-block;
+}
+.contact-left .contact-email input{
+    display: inline-block;
+    padding: 10px 20px;
+    width: 100%;
+    border: none;
+    border: solid 2px #ccc;
+    color: #ACACAC;
+}
+.contact-left .contact-subject input{
+    display: inline-block;
+    padding: 10px 20px;
+    width: 100%;
+    border: none;
+    border: solid 2px #ccc;
+    color: #ACACAC;
+}
+textarea{
+    resize: none;
+    border: none;
+    border: solid 2px #ccc;
+    padding: 20px;
+}
+.btn-green{
+    display: inline-block;
+}
+.contact-left .btn-green{
+    color: #fff;
+    padding: 10px 40px;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: 500;
+}
+.contact-left .btn-green:hover{
+    text-decoration: none;
+    color: #505050;
+}
+.contact-right h5{
+    font-size: 20px;
+    font-weight: 700;
+    color: #505050;
+}
+.contact-address p{
+    font-size: 16px;
+    width: 250px;
+    line-height: 25px;
+}
+.contact-social i{
+    padding: 10px 10px 10px 0px;
+    color: #505050;
+}
+.contact-address{
+    margin-right: 100px;
+}
+.contact-mail{
+    margin-right: 153px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

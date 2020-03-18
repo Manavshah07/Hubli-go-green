@@ -1,0 +1,218 @@
+/**
+ * about.css
+ * Contains CSS for basic static website named "Hubli - A Go Green Initiative"
+ */
+
+/* =========================================
+    Default Theme
+    ----------------------------------------
+    Fonts: Poppins and Mr. Dafoe
+    ----------------------------------------
+    Colors:
+        Green:               #A0D406
+        Smoke Grey:          #ACACAC
+        Dark Grey:           #505050
+        White:               #fff
+        Black:               #000   
+============================================ */
+
+.body{
+    overflow-x: none;
+}
+/******************************************************************************************************************************************************************
+                                                               BLOG-SHOWCASE SECTION
+******************************************************************************************************************************************************************/
+#blog-showcase{
+    height: 50vh;
+    width: 100%;
+    z-index: 0;
+}
+.blog-showcase-wrapper{
+    height: 100%;
+    background-image: url(../img/blog-page/head-bg.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+    z-index: -1;
+}
+.blog-showcase-content{
+    color: #fff;
+    padding-top: 90px;
+    z-index: -3;
+}
+.blog-showcase-content h1{
+    font-weight: bold;
+}
+.blog-showcase-overlay{
+    background: rgba(0,0,0,0.5);
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -2;
+    opacity: 2;
+}
+
+/******************************************************************************************************************************************************************
+                                                               BLOG-SINGLE-CONTENT SECTION
+******************************************************************************************************************************************************************/
+.blog-social{
+    display: flex;
+    margin-top: 30px;
+}
+.blog-date p,
+.blog-like p,
+.blog-comment p{
+    color: #ACACAC;
+} 
+.blog-like span{
+    color: red;
+}
+.blog-comment span{
+    color: green;
+}
+.blog-like,
+.blog-comment{
+    padding-left: 20px;
+}
+.blog-single-content-title h4{
+    font-size: 22px;
+    font-weight: 700;
+}
+.blog-single-content p{
+    color: #000;
+    width: 710px;
+    font-size: 14px;
+}
+.blog-single-content .blog-content-black p{
+    width: 600px;
+    background-color: #505050;
+    color: #fff;
+    padding: 20px;
+    margin-left: 30px;
+}
+.blog-content-black i{
+    margin-top: 30px;
+}
+.blog-content-black{
+    display: flex;
+    margin-left: 20px;
+}
+.blog-content-list{
+    margin-left: 50px;
+}
+.blog-content-list ul li{
+    color: #A0D406;
+    font-size: 16px;
+}
+.blog-separator{
+    height: 5px;
+    width: 700px;
+    border-top: 1px solid #ddd;
+}
+.blog-author-img img{
+    border-radius: 100%;
+}
+.blog-author-desc h5{
+    font-weight: 700;
+    color: #505050;
+    line-height: 0;
+    font-size: 16px;
+}
+.blog-author-desc{
+    margin-left: 20px;
+}
+.blog-author-desc p{
+    width: 500px;
+}
+.blog-author{
+    display: flex;
+}
+.blog-icon i{
+    padding-right: 10px;
+}
+.blog-content-title h4{
+    margin-left: 280px;
+}
+.blog-grid-section .blog-grid-img img{
+    width: 300px;
+    height: 300px;
+}
+.blog{
+    display: flex;
+}
+#blog-single-wrapper{
+    display: flex;
+    margin-left: 40px;
+}
+.comment-heading h4{
+    font-size: 22px;
+    color: #505050;
+    font-weight: 700;
+    margin-left: 35px;
+}
+.m-l-30{
+    margin-left: 30px;
+}
+.blog-post-comments-title h5{
+    font-size: 22px;
+    font-weight: 700;
+    color: #505050;
+}
+.blog-post-comment-form input{
+    border: none;
+    background-color: #eee;
+    padding: 20px 30px 20px 20px;
+    border-radius: 10px;
+    color: #505050;
+    font-size: 18px;
+    font-weight: 700;
+    margin-right: 20px;
+}
+.blog-post-comment-form textarea{
+    display: block;
+    resize: none;
+    border: none;
+    background-color: #eee;
+    padding: 20px;
+    color: #505050;
+    font-size: 18px;
+    font-weight: 700;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+.blog-post-comments .btn-green{
+    display: inline-block;
+    padding: 10px 50px;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 16px;
+    transition: all .2s ease-in-out;
+}
+.blog-post-comments .btn-green:hover{
+    color: #505050;
+    text-decoration: none;
+    transition: all .2s ease-in-out;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

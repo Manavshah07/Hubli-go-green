@@ -266,3 +266,77 @@ $(document).ready(function(){
 })
 
 
+/****************************************************************************************************************************************************************
+                                                                SMOOTH SCROLL
+****************************************************************************************************************************************************************/
+
+$(function(){
+    $("a.smooth-scroll").click(function(event){
+        event.preventDefault();
+        var section_id = $(this).attr("href");
+        $("html,body").animate({
+            scrollTop:$(section_id).offset().top +50
+        },1250,"easeInOutExpo")
+    });
+});
+
+$(document).ready(function(){ 
+		$(window).on('scroll', function () {
+			if ($(this).scrollTop() > 100) { 
+				$('#back-to-top').fadeIn(); 
+			} else { 
+				$('#back-to-top').fadeOut(); 
+			} 
+		}); 
+		$('#back-to-top').click(function(){ 
+			$("html, body").animate({ scrollTop: 0 }, 600); 
+			return false; 
+		}); 
+	});
+
+/****************************************************************************************************************************************************************
+                                                                NAVBAR
+****************************************************************************************************************************************************************/
+ /* When the user clicks on the button, 
+toggle between hiding and showing the dropdown content */   
+function dropdown(){
+    document.getElementById('#dropdown').classList.toggle('show');
+}
+
+// Close the dropdown if the user clicks outside of it
+window.onclick = function(event) {
+  if (!event.target.matches('#nav-link')) {
+    var dropdowns = document.getElementsByClassName("dropdowncontent");
+    var i;
+    for (i = 0; i < dropdowns.length; i++) {
+      var openDropdown = dropdowns[i];
+      if (openDropdown.classList.contains('show')) {
+        openDropdown.classList.remove('show');
+      }
+    }
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

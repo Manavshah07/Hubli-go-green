@@ -320,11 +320,26 @@ window.onclick = function(event) {
 
 
 
+/****************************************************************************************************************************************************************
+                                                                HEADER
+****************************************************************************************************************************************************************/
 
 
-
-
-
+//$(function (){
+//    showHideNav();
+//    $(window).scroll(function(){
+//        showHideNav();
+//    });
+//    function showHideNav(){
+//        if($(window).scrollTop()>50){
+//            $("nav").addClass("scrolled-navbar green-nav-top");
+//            $("#back-to-top").fadeIn();
+//        }else{
+//            $("nav").removeClass("scrolled-navbar green-nav-top");
+//            $("#back-to-top").fadeOut();
+//        }
+//    }
+//});
 
 
 

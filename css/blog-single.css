@@ -26,6 +26,8 @@
     height: 50vh;
     width: 100%;
     z-index: 0;
+    padding-top: 100px;
+/*    margin-top: 100px;*/
 }
 .blog-showcase-wrapper{
     height: 100%;
@@ -196,6 +198,88 @@
     text-decoration: none;
     transition: all .2s ease-in-out;
 }
+
+/******************************************************************************************************************************************************************
+                                                                        HEADER SECTION
+******************************************************************************************************************************************************************/
+.links{
+    display: flex;
+    margin-top: 30px;
+    margin-right: 200px;
+}
+.nav-wrapper-flex{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 150px;
+}
+.links li a:active,
+.links li a:hover{
+    background: #505050;
+}
+
+.links li a{
+    color: #505050;
+    border: 2px transparent solid;
+    transition: all .3s ease-in-out;
+    margin-left: 30px;
+    padding: 10px;
+}
+.links li a:active,
+.links li a:hover{
+    background: #505050;
+    border: 2px transparent solid ;
+    color: #fff;
+}
+.links #dropdown{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+.links #dropdown a{
+    color: #000;
+    margin-left:0;
+    display: none;
+}
+.links #dropdown a:active,
+.links #dropdown a:hover{
+    background: #A0d406;
+    margin: 0;
+}
+.links .dropdowncontent{
+    position: absolute;
+    top: 5px;
+    left: 40px;
+    background-color: #fff;
+    min-width: 120px;
+    overflow: auto;
+    box-shadow: 0px 7px 16px 0px rgba(0,0,0,0.5);
+    z-index: 1;
+}
+.nav-wrapper-flex ul.links>li.active>a{
+    background: #505050;
+    border: 2px transparent solid ;
+    color: #fff;
+}
+.nav-fixed{
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 9999;
+    width: 100%;
+    background-color: #A0d406;
+/*    border-width: 0 0 1px;*/
+}
+/*
+.scrolled-navbar {
+    padding: 15px 0;
+    box-shadow: 0 8px 6px -9px #999;
+    z-index: 2;
+}
+.green-nav-top{
+    background: #A0D406;
+    width: 100%;
+}
+*/
 
 
 
